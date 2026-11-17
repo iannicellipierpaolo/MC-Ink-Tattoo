@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0A0A0A">
+    <meta name="description" content="M.C. Inktattoo, Mario Capalbo. Realism, fine line e custom tattoo a Corigliano (CS). Sito dimostrativo RAW / REDLINE.">
+    <title>M.C. Inktattoo — Mario Capalbo | RAW / REDLINE</title>
+    <link rel="icon" href="./assets/images/favicon.svg" type="image/svg+xml">
+    <link rel="preload" href="./assets/fonts/1Ptgg87LROyAm0K0.woff" as="font" type="font/woff" crossorigin>
+    <link rel="preload" href="./assets/images/hero.webp" as="image" fetchpriority="high">
+    <link rel="stylesheet" href="./assets/fonts/fonts.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./config.js" defer></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Vai al contenuto</a>
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="M.C. Inktattoo, torna alla home">
+            <span class="brand-name">M.C. <span>INKTATTOO</span></span>
+            <span class="brand-location">CORIGLIANO (CS)</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="navigation">
+            <span class="menu-label">MENU</span>
+            <span class="menu-symbol" aria-hidden="true"><i></i><i></i></span>
+        </button>
+        <nav class="navigation" id="navigation" aria-label="Navigazione principale">
+            <a href="#works">WORK</a>
+            <a href="#artist">ARTIST</a>
+            <a href="#contacts">CONTACT</a>
+            <a class="button button-red nav-book" href="#contacts" data-booking>
+                <span>BOOK NOW</span>
+            </a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero section" id="home" aria-labelledby="hero-title">
+            <div class="hero-photo" aria-hidden="true">
+                <img src="./assets/images/hero.webp" alt="" width="1024" height="1536" fetchpriority="high" data-image="hero">
+            </div>
+            <span class="scratch hero-scratch-top" aria-hidden="true"></span>
+            <span class="scratch hero-scratch-bottom" aria-hidden="true"></span>
+            <div class="hero-content">
+                <p class="eyebrow hero-intro" data-copy="hero.eyebrow">REALISTIC TATTOO ARTIST</p>
+                <span class="hero-accent" aria-hidden="true"></span>
+                <h1 class="hero-title" id="hero-title">
+                    <span class="title-line"><span>RAW</span></span>
+                    <span class="title-line red"><span>REALISTIC</span></span>
+                    <span class="title-line"><span>WORK</span></span>
+                </h1>
+                <p class="hero-specialties">REALISM <span>/</span> FINE LINE <span>/</span> CUSTOM</p>
+                <div class="hero-actions">
+                    <a class="button button-red" href="#works"><span>VIEW WORK</span></a>
+                    <a class="button button-outline" href="#contacts" data-booking>
+                        <span>BOOK A CONSULTATION</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="artist section" id="artist" aria-labelledby="artist-title">
+            <span class="scratch corner-top" aria-hidden="true"></span>
+            <div class="artist-film reveal">
+                <video autoplay muted loop playsinline preload="metadata" poster="./assets/images/artist-poster.webp" aria-label="Primo piano della realizzazione di un tatuaggio">
+                    <source src="./assets/videos/artist.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="artist-content">
+                <div class="artist-identity">
+                    <h2 class="section-title reveal" id="artist-title">
+                        <span>THE</span>
+                        <span class="red">ARTIST.</span>
+                    </h2>
+                    <p class="artist-name reveal" data-copy="artist.name">MARIO CAPALBO</p>
+                    <p class="artist-claim reveal" data-copy="artist.claim">TATTOOS WITH IDENTITY.</p>
+                </div>
+                <ul class="artist-specialties" aria-label="Specializzazioni">
+                    <li class="reveal">REALISM</li>
+                    <li class="reveal">FINE LINE</li>
+                    <li class="reveal">CUSTOM</li>
+                </ul>
+            </div>
+            <span class="scratch corner-bottom" aria-hidden="true"></span>
+        </section>
+
+        <section class="works section" id="works" aria-labelledby="works-title">
+            <span class="scratch corner-top" aria-hidden="true"></span>
+            <h2 class="section-title works-title reveal" id="works-title">
+                <span>SELECTED</span>
+                <span class="red">WORKS.</span>
+            </h2>
+            <div class="work-gallery" role="region" aria-label="Galleria fotografica dei tatuaggi, scorribile orizzontalmente" tabindex="0">
+                <figure class="work reveal"><img src="./assets/images/work-01.webp" alt="Tatuaggio realistico di un volto femminile e una farfalla sul braccio" width="399" height="501" loading="lazy" decoding="async"></figure>
+                <figure class="work reveal"><img src="./assets/images/work-02.webp" alt="Tatuaggio di un volto femminile con drago sull'avambraccio" width="195" height="258" loading="lazy" decoding="async"></figure>
+                <figure class="work reveal"><img src="./assets/images/work-03.webp" alt="Tatuaggio realistico del Joker sulla gamba" width="335" height="597" loading="lazy" decoding="async"></figure>
+                <figure class="work reveal"><img src="./assets/images/work-04.webp" alt="Tatuaggio a manica con composizione scultorea e volto classico" width="335" height="597" loading="lazy" decoding="async"></figure>
+                <figure class="work reveal"><img src="./assets/images/work-05.webp" alt="Tatuaggio di un occhio animale e motivi ornamentali sull'avambraccio" width="194" height="259" loading="lazy" decoding="async"></figure>
+            </div>
+            <span class="scratch corner-bottom" aria-hidden="true"></span>
+        </section>
+
+        <section class="contacts section" id="contacts" aria-labelledby="contacts-title">
+            <div class="mars reveal" aria-hidden="true">
+                <img src="./assets/images/mars.webp" alt="" width="1024" height="1536" loading="lazy" decoding="async" data-image="mars">
+            </div>
+            <span class="scratch contacts-face-scratch" aria-hidden="true"></span>
+            <div class="contacts-content">
+                <h2 class="section-title contacts-title reveal" id="contacts-title">CONTACTS<span class="red">.</span></h2>
+                <div class="contact-grid">
+                    <article class="contact-card reveal" data-contact="address">
+                        <div class="card-content">
+                            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M24 43S8 27 8 18a16 16 0 0 1 32 0c0 9-16 25-16 25Z"/><circle cx="24" cy="18" r="6"/></svg>
+                            <h3>INDIRIZZO</h3>
+                            <p>Vieni a trovarci in studio.</p>
+                        </div>
+                    </article>
+                    <article class="contact-card reveal" data-contact="phone">
+                        <div class="card-content">
+                            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="12" y="3" width="24" height="42" rx="4"/><path d="M20 7h8M22 40h4"/></svg>
+                            <h3>TELEFONO</h3>
+                            <p>Contattaci per informazioni.</p>
+                        </div>
+                    </article>
+                    <article class="contact-card reveal" data-contact="reviews">
+                        <div class="card-content">
+                            <svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="m24 3 6.5 13.5L45 19l-10.5 10.5L37 45l-13-7-13 7 2.5-15.5L3 19l14.5-2.5L24 3Z"/></svg>
+                            <h3>RECENSIONI</h3>
+                            <p>Scopri cosa dicono di noi.</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <span class="scratch corner-bottom" aria-hidden="true"></span>
+        </section>
+    </main>
+</body>
+</html>

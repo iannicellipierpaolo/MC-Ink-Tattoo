@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./1Ptgg87LROyAm0K0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./HTxyL3I-JCGChYJ8VI-L6OO_au7B6xTrK3LWvA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: italic;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./HTxyL3I-JCGChYJ8VI-L6OO_au7B6xTrB3XWvA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: italic;
+  font-weight: 700;
+  font-display: swap;
+  src: url(./HTxyL3I-JCGChYJ8VI-L6OO_au7B6xTrY3TWvA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./HTxwL3I-JCGChYJ8VI-L6OO_au7B4-Lw_3E.woff) format('woff');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./HTxwL3I-JCGChYJ8VI-L6OO_au7B4873_3E.woff) format('woff');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(./NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjDw-qXA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(./NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mjPQ-qXA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Inter Tight';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(./NGSnv5HMAFg6IuGlBNMjxJEL2VmU3NS7Z2mj0QiqXA.woff) format('woff');
+}
