@@ -1120,3 +1120,12 @@ img, video {
         translate: none;
     }
 }
+
+.scratch,
+.artist-specialties li::before {
+    display: none;
+}
+
+.artist-specialties li {
+    padding-left: 0;
+}
